@@ -1,0 +1,122 @@
+SCR_BaseGameMode GameMode_Plain1 : "{1B76F75A3175E85C}Prefabs/MP/Modes/Plain/GameMode_Plain.et" {
+ components {
+  CE_WorldValidationComponent "{647EF723EECD3452}" {
+  }
+ }
+ coords 131.458 1 103.203
+}
+SCR_FactionManager FactionManager_FFA1 : "{A1C54BBE72C5C696}Prefabs/MP/Managers/Factions/FactionManager_FFA.et" {
+ coords 128.66 1 107.933
+}
+SCR_DestructibleBuildingEntity : "{35A406D39D6E0ADA}Prefabs/Structures/Military/Houses/Barracks_01/Barracks_01_military_camo_v1.et" {
+ coords 134.419 0 86.23
+ {
+  GenericEntity LootSpawner_Randomized_647EF72117F8CA3F {
+   ID "62B90C3EEB3B9649"
+  }
+  GenericEntity LootSpawner_Randomized_647EF72117F8CB2A {
+   ID "62B90C3EEB3B9685"
+  }
+  GenericEntity LootSpawner_Randomized_647EF72117F8D4C5 {
+   ID "62B90C3EEB3B9698"
+   coords -5.114 1.025 -3.891
+  }
+  GenericEntity LootSpawner_Randomized_647EF72117F8D496 {
+   ID "62B90C3EEB3B96A1"
+  }
+  GenericEntity LootSpawner_Randomized_647EF72117F8D42E {
+   ID "62B90C3EEB3B96AE"
+  }
+  GenericEntity LootSpawner_Randomized_647EF72117F8D5F4 {
+   ID "62B90C3EEB3B96B2"
+  }
+  GenericEntity LootSpawner_Randomized_647EF72117F8D5BE {
+   ID "62B90C3EEB3B96C9"
+  }
+  GenericEntity LootSpawner_Randomized_647EF72117F8D546 {
+   ID "62B90C3EEB3B96D5"
+  }
+  GenericEntity LootSpawner_Randomized_647EF72117F8D508 {
+   ID "62B90C3EEB3B96DD"
+  }
+  GenericEntity LootSpawner_Randomized_647EF72117F8D6DB {
+   ID "62B90C3EEB3B96E2"
+  }
+  GenericEntity LootSpawner_Randomized_647EF72117F8D660 {
+   ID "62B90C3EEB3B96EC"
+  }
+  GenericEntity LootSpawner_Randomized_647EF72117F8D62E {
+   ID "62B90C3EEB3B96F6"
+  }
+ }
+}
+$grp GenericEntity : "{43BD18E7A529D663}Prefabs/Spawners/LootSpawner_Randomized.et" {
+ LootSpawner_Randomized_647EF7217D7A6C34 {
+  coords 125.76 1 125.047
+ }
+ LootSpawner_Randomized_647EF7214F65B2BE {
+  coords 120.866 1 124.833
+ }
+ LootSpawner_Randomized_647EF72140C3C002 {
+  coords 114.161 1 115.931
+ }
+ LootSpawner_Randomized_647EF7214056EC2F {
+  coords 122.052 1 121.038
+ }
+ LootSpawner_Randomized_647EF721412C7C74 {
+  coords 123.527 1 111.325
+ }
+ LootSpawner_Randomized_647EF72142B8EF84 {
+  coords 124.056 1 120.214
+ }
+}
+CE_TierTriggerArea : "{61B87E437314014C}Prefabs/Areas/Tiers/TierArea_Tier4.et" {
+ coords 121.379 1 121.128
+ TriggerShapeType Sphere
+ SphereRadius 6.8
+ DrawShape 1
+}
+SCR_DestructibleBuildingEntity : "{6BE382F85F1A7491}Prefabs/Structures/Cultural/Castles/Castle_01_InnerWall_01.et" {
+ coords 134.72 -0 138.238
+}
+SCR_LoadoutManager : "{B7E5D7F4864D81C0}Prefabs/MP/Managers/Loadouts/LoadoutManager_FFA.et" {
+ coords 129.292 1 107.812
+}
+CE_TierTriggerArea : "{D5442362B659903E}Prefabs/Areas/Tiers/TierArea_Tier1.et" {
+ coords 128.782 1 102.131
+ TriggerShapeType Sphere
+ SphereRadius 44.3
+ DrawShape 1
+}
+CE_UsageTriggerArea : "{DABFAB24173C5C1B}Prefabs/Areas/Usages/UsageArea_Military.et" {
+ coords 113.208 1 117.617
+}
+SCR_DestructibleBuildingEntity : "{DECF116069DCCC2B}Prefabs/Structures/Cultural/Castles/Castle_01_Tower.et" {
+ coords 130.063 0 143.024
+ angleY 0
+ {
+  GenericEntity LootSpawner_Randomized_64821B2215626AFE {
+   ID "62B8101BDA2046DA"
+  }
+  GenericEntity LootSpawner_Randomized_64821B2215626BF7 {
+   ID "62B8101BDA2046F3"
+  }
+ }
+}
+SCR_DestructibleBuildingEntity : "{E8C14F26268A4D6D}Prefabs/Structures/Services/Fire/FireStation_E_01/FireStation_E_01.et" {
+ coords 153.373 1.93 120.823
+ {
+  GenericEntity LootSpawner_Randomized_64821B228C8C6E1D {
+   ID "62B90C46E3E9D649"
+  }
+  GenericEntity LootSpawner_Randomized_64821B228C8C68F5 {
+   ID "62B90C46E3E9D651"
+  }
+  GenericEntity LootSpawner_Randomized_64821B228C8C6898 {
+   ID "62B90C46E3E9D65C"
+  }
+  GenericEntity LootSpawner_Randomized_64821B228C8C682C {
+   ID "62B90C46E3E9D662"
+  }
+ }
+}
